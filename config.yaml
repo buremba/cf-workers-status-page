@@ -15,23 +15,23 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: rakam-io # unique identifier
+    name: rakam.io
+    description: 'Our landing page' # default=empty
+    url: 'https://rakam.io/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: app-rakam-io
+    name: app.rakam.io
+    description: 'Our application'
+    url: 'https://app.rakam.io'
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: docs-rakam-io
+    name: Our documentation
+    url: 'https://docs.rakam.io/'
     method: GET
     expectStatus: 200
