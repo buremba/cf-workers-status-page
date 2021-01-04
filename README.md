@@ -97,7 +97,7 @@ You can clone the repository yourself and use Wrangler CLI to develop/deploy, ex
 - create Worker secrets _\(optional\)_
   - `SECRET_SLACK_WEBHOOK_URL`
 
-## Workers KV free tier
+## Workers KV free tier 
 
 The Workers Free plan includes limited KV usage, but the quota is sufficient for 2-minute checks only
 
