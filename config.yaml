@@ -31,7 +31,8 @@ monitors:
     expectStatus: 200
 
   - id: docs-rakam-io
-    name: Our documentation
+    description: 'Our documentation'
+    name: docs.rakam.io
     url: 'https://docs.rakam.io/'
     method: GET
     expectStatus: 200
